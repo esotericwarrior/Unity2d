@@ -10,7 +10,10 @@ public class NumberWizard : MonoBehaviour {
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log("I am the Number Wizard.");
+        Debug.Log("Pick a number between " + min + " and " + max);
+        Debug.Log("Now, tell me if your number is higher or lower than 500");
+        Debug.Log("Push Up = Higher, Push Down = Lower, Push Enter = Correct");
     }
 
     // Update is called once per frame
